@@ -47,7 +47,7 @@ public:
 
 int main() {
     Solution solution;
-    char buf[100];
+    char buf[100]; // buf is the buffer where the characters read from the file will be stored
     int n = 10; // Number of characters to read
     int charsRead = solution.read(buf, n);
     
